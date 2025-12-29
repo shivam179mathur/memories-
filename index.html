@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>our memories  👑</title>
+    <title>Our Memories — For You, Suhani ❤️</title>
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👑</text></svg>">
 
@@ -223,7 +223,7 @@
         }
         
         .music-btn::after {
-            content: "Next Song";
+            content: "Play a Memory";
             position: absolute;
             bottom: 80px;
             right: 0;
@@ -271,8 +271,8 @@
 <body>
 
     <div id="welcome-screen">
-        <h1 style="font-size: 2.5rem; margin-bottom: 20px;">A Special Surprise For You...</h1>
-        <button class="enter-btn" onclick="startSurprise()">✨ Click to Open ✨</button>
+        <h1 style="font-size: 2.5rem; margin-bottom: 20px;">For the one who fills my days with light</h1>
+        <button class="enter-btn" onclick="startSurprise()">Open Our Memories ✨</button>
     </div>
 
     <canvas id="confetti-canvas"></canvas>
@@ -284,16 +284,15 @@
     <button class="music-btn" onclick="changeSong()">⏭️</button>
 
     <header>
-        <h1>our memories </h1>
-        <h1>shuhani</h1>
-        <div class="subtitle"> • The Main Character</div>
+        <h1>Little Moments, Big Love</h1>
+        <h1>Suhani</h1>
+        <div class="subtitle"> • My Forever</div>
     </header>
 
     <div class="wishes">
-        <h2>To the  Queen 👑</h2>
+        <h2>To My Queen</h2>
         <p>
-            Wishing you a day as beautiful as your smile and a year as amazing as you are.
-            Keep shining! ✨
+            I keep the tiny moments with me — your smile at sunrise, our silly midnight dances, and the quiet talks that make everything feel like home. Each memory is a little light I return to when I want to feel close to you.
         </p>
     </div>
 
@@ -301,28 +300,27 @@
 
     <div class="gallery-container">
         <div class="gallery">
-            <div class="photo-card"><img src="photo1.jpeg" alt="photo"><div class="caption">✨</div></div>
-            <div class="photo-card"><img src="photo2.jpeg" alt="photo"><div class="caption">🤍</div></div>
-            <div class="photo-card"><img src="photo3.jpeg" alt="photo"><div class="caption">🌟</div></div>
-            <div class="photo-card"><img src="photo4.jpeg" alt="photo"><div class="caption">📸</div></div>
-            <div class="photo-card"><img src="photo5.jpeg" alt="photo"><div class="caption">👑</div></div>
-            <div class="photo-card"><img src="photo6.jpeg" alt="photo"><div class="caption">💫</div></div>
-            <div class="photo-card"><img src="photo7.jpeg" alt="photo"><div class="caption">💖</div></div>
-            <div class="photo-card"><img src="photo8.jpeg" alt="photo"><div class="caption">🦋</div></div>
-            <div class="photo-card"><img src="photo9.jpeg" alt="photo"><div class="caption">🌹</div></div>
-            <div class="photo-card"><img src="photo10.jpeg" alt="photo"><div class="caption">✨ Birthday Girl</div></div>
+            <div class="photo-card"><img src="photo1.jpeg" alt="The first sunset we chased"><div class="caption">The First Sunset We Chased</div></div>
+            <div class="photo-card"><img src="photo2.jpeg" alt="That rainy day laughter"><div class="caption">That Rainy Day Laughter</div></div>
+            <div class="photo-card"><img src="photo3.jpeg" alt="Your brightest smile"><div class="caption">Your Brightest Smile</div></div>
+            <div class="photo-card"><img src="photo6.jpeg" alt="When we got lost together"><div class="caption">When We Got Lost Together</div></div>
+            <div class="photo-card"><img src="photo5.jpeg" alt="Crowned my heart"><div class="caption">Crowned My Heart</div></div>
+            <div class="photo-card"><img src="photo4.jpeg" alt="Starlit promises"><div class="caption">Starlit Promises</div></div>
+            <div class="photo-card"><img src="photo7.jpeg" alt="Tiny joys, big love"><div class="caption">Tiny Joys, Big Love</div></div>
+            <div class="photo-card"><img src="photo8.jpeg" alt="Butterfly kisses"><div class="caption">Butterfly Kisses</div></div>
+            <div class="photo-card"><img src="photo9.jpeg" alt="A single rose"><div class="caption">A Single Rose</div></div>
+            <div class="photo-card"><img src="photo10.jpeg" alt="Birthday glow"><div class="caption">Beauty Glow</div></div>
         </div>
     </div>
 
     <div class="special-note">
         <p>
-             <br>
-            😉🎶"
+            Every memory with you warms my heart — thank you for being my home, my joy, and my favorite story.
         </p>
     </div>
 
     <footer>
-        <p>Made with ❤️ by  your ujjwal </p>
+        <p>Made with all my love — Ujjwal</p>
     </footer>
 
     <script>
@@ -343,7 +341,7 @@
             // 2. Start Music (song1.mp3 at 27s)
             const music = document.getElementById('bg-music');
             music.src = "song1.mp3";
-            music.currentTime = 27;
+            music.currentTime = 54;
             music.play().catch(error => console.log("Music play failed:", error));
             currentTrack = 1;
 
@@ -367,13 +365,13 @@
             } else if (currentTrack === 2) {
                 // Play Song 3
                 music.src = "song3.mp3";
-                music.currentTime = 0; 
+                music.currentTime = 28; 
                 music.play();
                 currentTrack = 3;
             } else {
                 // Loop back to Song 1 (from 27s)
                 music.src = "song1.mp3";
-                music.currentTime = 27; 
+                music.currentTime = 54; 
                 music.play();
                 currentTrack = 1;
             }
